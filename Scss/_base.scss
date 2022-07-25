@@ -1,0 +1,71 @@
+//全站設定
+.main-color {
+    color: #c89f62;
+}
+.sd-color {
+    color: #666666;
+}
+.ml-6{
+    margin-left: 30px;
+}
+.ml-7{
+    margin-left: 64px;
+}
+.mb-6{
+    margin-bottom: 64px;
+}
+.pr-6{
+    padding-right: 16px;
+}
+.fz14 {
+    font-size: 14px;
+}
+.fz16{
+    font-size: 16px;
+}
+.fz18 {
+    font-size: 18px;
+}
+
+.fz26 {
+    font-size: 26px;
+}
+
+.fz30 {
+    font-size: 30px;
+}
+
+.fz45 {
+    font-size: 45px;
+}
+
+.fo-fa-rg {
+    font-family: 'Noto Sans TC', Regular;
+}
+
+.fo-fa-lg {
+    font-family: 'Noto Sans TC', Light;
+}
+
+.fo-fa-md {
+    font-family: 'Noto Sans TC', Medium;
+}
+
+.fo-fa-bo {
+    font-family: 'Noto Sans TC', Bold;
+}
+
+.box-shadow {
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.2);
+}
+.shadows {
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+.shadows-xl{
+    @media (min-width:1200px) {
+        text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
+    }
+}
+img{
+    object-fit: cover
+}
